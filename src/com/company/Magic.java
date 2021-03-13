@@ -2,10 +2,10 @@ package com.company;
 
 public interface Magic {
 
-    public default String protectionSpell(){
+    default String protectionSpell(){
         return "защитился заклинанием 'Протего'";
     }
-    public default String attackSpell(){
+    default String attackSpell(){
         return "атаковал заклятием 'Авада Кедавра'";
     }
 
